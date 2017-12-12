@@ -1,0 +1,20 @@
+
+.xjr_infoBox{
+    padding: 0 54px;
+    /* position: relative; */
+}
+.xjr_infoBox>*{
+    box-sizing: border-box;
+}
+.xjr_yuyue_title{
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 20px;
+    font-weight: bolder;
+    color: #d53038;
+}
+.xjr_yuyue_hr{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}

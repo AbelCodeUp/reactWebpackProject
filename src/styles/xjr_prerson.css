@@ -1,0 +1,136 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.xjr_infoBox{
+    padding: 0 54px;
+    overflow: hidden;
+}
+.xjr_yuyue_title{
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 20px;
+    font-weight: bolder;
+    color: #d53038;
+}
+.xjr_yuyue_hr{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+} */
+.xjr_info_img{
+    width: 155px;
+    height: 155px;
+    margin: 0 auto;
+    border-radius: 100%;
+    /* border: 1px solid #F1A6AA; */
+    overflow: hidden;
+}
+.xjr_info_img img{
+    display: block;
+    margin: 0 auto;
+    width: 153px;
+    height: 153px;
+}
+.xjr_inputBox{
+    overflow: hidden;
+    font-size: 16px;
+}
+.xjr_info_name{
+    text-align: center;
+    padding-top: 50px;
+    color: #666;
+}
+.xjr_info_title{
+    color: #666;
+    padding-top:25px;
+    float: right;
+    display: flex;
+    align-items: center;
+    
+}
+.xjr_info_input{
+    width: 183px;
+    height:28px;
+    color:#333;
+    margin-right: 340px;
+    margin-left: 16px;
+    border: 1px solid #ccc;
+    text-indent: 10px;
+    cursor:text ;
+}
+.xjr_info_input:focus{
+    border: 1px solid #F1A6AA;
+}
+.xjr_info_sex{
+    display: inline-block;
+    width: 183px;
+    height:28px;
+    line-height: 28px;
+    color:#333;
+    margin-right: 340px;
+    margin-left: 16px;
+}
+.xjr_info_sex label{
+    float: left;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.xjr_rdos{
+    width:12px;
+    height: 0;
+    position: relative;
+    margin-right: 10px;
+    font-size: 14px;
+
+}
+.xjr_rdos:before,.xjr_rdos:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+.xjr_rdos:before{
+    top:-11px;
+    left: 0px;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 1px solid #DA484F;
+}
+.xjr_rdos::after{
+    top: -8px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+}
+.xjr_rdos:checked:after{
+    top: -8px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    background: #333;
+}
+
+.xjr_info_add{
+    width: 81px;
+    height: 28px;
+    border: 1px solid #ccc;
+    color:  #333;
+}
+.xjr_save_info{
+    margin: 0 auto;
+    width: 130px;
+    height: 42px;
+    border-radius: 21px;
+    background: #D53038;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    margin-top: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}

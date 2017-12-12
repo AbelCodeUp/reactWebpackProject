@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.xjr_infoBox{
+    padding: 0 54px;
+    overflow: hidden;
+}
+.xjr_yuyue_title{
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 75px;
+    font-weight: bolder;
+    color: #d53038;
+}
+.xjr_yuyue_hr{
+    display: block;
+    width: 1015px;
+    margin: 0 auto;
+}
+.xjr_yuyue_child{
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 75px;
+}
+.xjr_yuyue_date{
+    width: 912px;
+    height: 74px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #FEECEC;
+}
+.xjr_yuyue_date>li{
+    width: 65px;
+    float: left;
+    font-size: 16px;
+    color: #333;
+    line-height: 22px;
+    padding: 16px 0;
+    height: 72px;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+.xjr_yuyue_date>li:last-child{
+    border-right:none;
+}

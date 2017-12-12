@@ -1,0 +1,40 @@
+.xjr_guide_video{
+    display: block;
+    width: 695px;
+    height: 390px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid #CC545D;
+}
+.xjr_guide_text{
+    padding: 40px 0 0; 
+}
+.xjr_text_know{
+    width: 360px;
+    height: 30px;
+    background: #D53038;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.xjr_text_title{
+    font-size: 16px;
+    color: #333;
+    padding-top: 23px
+}
+.xjr_text_content{
+    padding-left: 30px;
+    padding-top: 11px;
+    font-size: 14px;
+    color: #333;
+}
+.xjr_text_content1{
+    text-indent: 16px;
+}
+.xjr_guide_href{
+    color: #D53038;
+    text-decoration: none;
+}

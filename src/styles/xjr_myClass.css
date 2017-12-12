@@ -1,0 +1,97 @@
+
+.xjr_myClass_box{
+    width: 100%;
+    padding: 26px 23px 0;
+    box-sizing: border-box;
+}
+.xjr_myClass_box>*{
+    box-sizing: border-box;
+}
+.xjr_myClass{
+    width: 100%;
+    border: 2px solid #D53038;
+    border-radius: 10px;
+}
+.xjr_class_info{
+    padding-top: 22px;    
+    padding-bottom: 24px;    
+    display: flex;
+    border-bottom: 2px solid #D53038;
+}
+.xjr_info_canvas{
+    display: flex;
+    align-items: center;
+    width: 46%;
+    
+}
+.process{
+    padding-left: 42px;
+    padding-right: 22px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.xjr_leaveClass{
+    font-size: 18px;
+    color: #333;
+}
+.xjr_leaveClass span{
+    color: #D53038;
+}
+.xjr_info_num{
+    font-size: 14px;
+    color: #333;
+    padding-top: 38px;
+}
+.xjr_info_num span{
+    display: inline-block;
+    width: 50px;
+    color:#E63E46;
+}
+/* .xjr_buyclass{
+    padding-top: 20px;
+} */
+.xjr_giveclass{
+    padding-top: 22px;
+
+}
+.xjr_note_head{
+    background: #FEECEC;
+    color: #333;
+    font-size: 18px;
+    height: 63px;
+    line-height: 63px;
+    border-bottom: 2px solid #D53038;
+    padding-left: 48px;
+}
+.xjr_note_main{
+    padding-left: 48px;
+    padding-right:124px;
+    padding-top:10px; 
+    min-height: 295px;
+}
+.xjr_note_item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #333;
+    line-height: 44px;
+}
+.xjr_item_type{
+    width: 150px;
+}
+.xjr_note_time{
+    color: #999;
+}
+.xjr_item_rednum{
+    color: #D53038;
+}
+/* 没有课时 */
+.xjr_noClass{
+    font-size: 16px;
+    color: #333;
+    padding-top: 94px;
+    text-align: center;
+    height: 211px;
+    box-sizing: content-box;
+}

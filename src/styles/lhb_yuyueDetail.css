@@ -1,0 +1,69 @@
+.lhb-banner{
+	height: 250px;
+	margin:0 58px;
+	margin-top: 30px;
+	border-radius: 20px;
+	background: url(../images/lhb/lhb-banner.png) no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+}
+.lhb-head-img img{
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+}
+.lhb-head-name{
+	display: flex;
+	justify-content: center;
+	margin: 10px 0 ;
+	font-size: 16px;
+}
+.lhb-head-name img{
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+}
+.lhb-head-guanzhu{
+	display: flex;
+	justify-content: center;
+}
+.lhb-head-guanzhu span{
+	display: inline-block;
+	/*width: 30px;*/
+	height: 20px;
+	line-height: 20px;
+	background-color: #d53038;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+	border-radius: 5px;
+	padding: 0 4px;
+}
+.lhb-head-guanzhu .lhb-cancel{
+	background-color: #fff;
+	color: #d53038;
+}
+.lhb-yuekebtn{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	padding-bottom: 100px;
+}
+.lhb-yuekebtn span{
+	display: inline-block;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #d53038;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+	border-radius: 5px;
+	padding: 0 4px;
+	cursor: pointer;
+}

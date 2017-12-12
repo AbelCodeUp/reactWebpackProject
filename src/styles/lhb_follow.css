@@ -1,0 +1,48 @@
+.my-follow{
+	/*width: 100%;*/
+	height: 136px;
+	/*background-color: pink;*/
+	display: flex;
+    	justify-content: flex-start;
+    	align-items: center;
+    	margin-top: 20px;
+}
+.follow-list{
+	width: 100%;
+	height: 100%;
+	display: flex;
+    	justify-content: flex-start;
+    	align-items: center;
+}
+.follow-list-item{
+	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	width: 22%;
+    	height: 100%;
+    	margin-right: 4%;
+    	background-color: #feecec;
+    	border-radius: 10px;
+    	cursor: pointer;
+}
+.follow-list-item:last-child{
+	margin-right: 0;
+}
+.follow-list-item-con{
+	display: flex;
+	justify-content: center;
+    	align-items: center;
+}
+.lhb-left-img{
+	border-radius: 100%;
+	width: 82px;
+	height: 82px;
+	border:none;
+	margin-right: 10px;
+}
+.lhb-left{
+	margin-right: 20px;
+}
+.lhb-right{
+	margin-left: 20px;
+}

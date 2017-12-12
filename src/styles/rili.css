@@ -1,0 +1,163 @@
+.zjb-rili{
+    width: 1052px;
+    height: auto;
+  overflow: hidden;
+}
+.zjb-rili>.back{
+  width: 90px;
+    height: 46px;
+  padding-top: 10px;
+    margin-left: 63px;
+    color: #333333;
+  cursor: pointer;
+}
+.zjb-rili>.back>span{
+    color:#d53038;
+    font-size: 30px;
+    line-height: 16px;
+  display: block;
+  float: left;cursor: pointer;
+}
+.zjb-rili>.back>span:nth-child(2){
+  font-size: 16px;
+  line-height: 16px;
+}
+.zjb-rili>.line{
+    width: 980px;
+    height: 11px;
+    background: url("../images/zjb-hr.png") no-repeat;
+    background-size: cover;
+    margin-bottom: 22px;
+    margin-left: 33px;
+}
+.zjb-rili>.riliBox{
+    width: 938px;
+    height: 666px;
+    background: url("../images/zjb-rili.png") no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    margin-left: 55px;
+}
+
+.zjb-rili>.riliBox>.rili{
+    width: 905px;
+    height: 557px;
+    margin-left: 15px;
+    margin-top: 14px;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+}
+.zjb-rili>.riliBox>.rili>.riliTop{
+    width: 100%;
+    height: 60px;
+}
+.zjb-rili>.riliBox>.rili>.riliTop>.title{
+    font-size: 24px;
+    line-height: 60px;
+    float: left;
+    margin-left: 330px;
+    color: #d53038;
+}
+.zjb-rili>.riliBox>.rili>.riliTop>.title>span{
+    cursor: pointer;
+}
+.zjb-rili>.riliBox>.rili>.riliTop>.btn{
+    width: 80px;
+    height: 30px;
+    background-color: #d53038;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+    float: right;
+    margin-right: 45px;
+    border-radius: 6px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.zjb-rili>.riliBox>.rili>.riliContent{
+    width: 100%;
+    height: 559px;
+    background-color: #f0f0f0;
+}
+.zjb-rili>.riliBox>.rili>.riliContent>.xingqiBox{
+    width: 100%;
+    height: auto;
+}
+.zjb-rili>.riliBox>.rili>.riliContent>.xingqiBox>.xingqi{
+    width: 125px;
+    height: 48px;
+    background-color: #d53038;
+    text-align: center;
+    line-height: 48px;
+    color: white;
+    margin-right: 5px;
+    font-size: 18px;
+    float: left;
+}
+.zjb-rili>.riliBox>.rili>.riliContent>.xingqiBox>.xingqi:last-child{
+    margin-right: 0px;
+}
+.zjb-rili>.riliBox>.rili>.riliContent>.dateBox{
+    width: 100%;
+    height: auto;
+}
+.zjb-rili>.riliBox>.rili>.riliContent>.dateBox>.date{
+    width: 125px;
+    height: 80px;
+    background-color: white;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 5px;
+    cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+}
+.zjb-rili>.riliBox>.rili>.riliContent>.dateBox>.bgColor{
+  background-color: #f8d8d8 !important;
+}
+.zjb-rili>.riliBox>.rili>.riliContent>.dateBox>.date>.hourAndMinute{
+  height: 16px;
+  position: absolute;
+  line-height: 16px;
+  left: 43px;
+  font-size: 12px;
+  color: #d53038;
+  bottom: 5px;
+}
+.zjb-rili>.riliBox>.rili>.riliContent>.dateBox>.date>.hourAndMinute1{
+  color: #999999;
+}
+.zjb-rili>.riliBox>.rili>.riliContent>.dateBox>.date>.hourAndMinute2{
+  z-index: 9;
+}
+.zjb-rili>.riliBox>.rili>.riliContent>.dateBox>.date>.hourAndMinute3{
+  z-index:99;
+}
+.zjb-rili>.riliBox>.rili>.riliContent>.dateBox>.dateGrey{
+  color: #999;
+}
+ .zjb-rili>.riliBox>.rili>.riliContent>.dateBox>.borderColor{
+   border: 2px solid #d53038;
+ }
+.zjb-rili>.riliBox>.rili>.riliContent>.dateBox>.date>.nowDate{
+  height: 16px;
+  display: block;
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  color: #d53038;
+  font-size: 16px;
+  line-height: 16px;
+}
+.zjb-rili>.riliBox>.rili>.riliContent>.dateBox>.date:nth-child(7n){
+    margin-right: 0px;
+}
+.zjb-title{
+  height: 50px;
+  color:#d53038 ;font-size: 16px;margin-left: 76px;line-height: 50px;
+}

@@ -1,0 +1,294 @@
+.xjr_index_infobox{
+    position: relative;
+    margin: 0 26px;
+    height: 184px;
+    border:6px solid #D53038;
+    border-radius: 20px;
+    background: #FEECEC;
+    padding: 27px 35px;
+}
+.xjr_info_gang img{
+    position: absolute;
+    z-index: 1;  
+}
+.xjr_gang_left{
+    left: 50px;
+    top: -62px;
+}
+.xjr_gang_right{
+    right: 50px;
+    top: -62px;
+}
+.xjr_class_little{
+    position: absolute;
+    padding: 0 8px;
+    z-index: 2;
+    width: 325px;
+    height: 72px;
+    border: 2px solid #D53038;
+    border-radius: 8px;
+    background: #fff;
+    right: -86px;
+    top: -38px;
+    box-shadow: 3px 3px 3px #F58E92;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.xjr_little_buyclass{
+    padding-top: 3px
+}
+.xjr_little_giveclass{
+    padding-bottom: 3px
+}
+.xjr_class_little span{
+    display: inline-block;
+    width: 47px;
+    color:#D53038;
+}
+.xjr_index_info{
+    display: flex;
+    justify-content: space-between;    
+}
+.xjr_info_left{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.xjr_left_imgbox{
+    width: 100px;
+    height: 130px;
+    position: relative;
+}
+.xjr_left_imgbox .xjr_touxiang{
+    width: 100px;
+    height: 100px;
+    
+}
+.xjr_left_name{
+    padding-top: 8px;
+    margin: 0 auto;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+}
+.xjr_vip{
+    position: absolute;
+    width: 40px;
+    height: 22px;
+    right: -8px;
+    top: 0px;
+}
+.xjr_left_textbox{
+    width: 360px;
+    padding-left: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.xjr_textBox_p{
+    display: flex;
+    width: 380px;
+    font-size: 14px;
+    /* justify-content: space-around;     */
+}
+.xjr_textBox_p span{
+    display: inline-block;
+    width: 66px;
+    color: #d53038;
+}
+.xjr_textBox_p p .xjr_p_span{
+    width: 150px;
+}
+.xjr_textBox_p p .xjr_p_span1{
+    font-size: 18px;
+    padding-left: 5px;
+    color: #d53038;
+    
+}
+.xjr_p_span1{
+    font-size: 18px;
+    padding-left: 5px;
+    color: #d53038;
+    
+}
+.xjr_info_right{
+    display: flex;
+    width: 310px;
+}
+.xjr_index_leaveclass{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.xjr_adviceclass{
+    font-size: 14px;
+    color: #FE6D00;
+    padding-top: 20px;
+}
+.xjr_index_ruxue{
+    padding-top: 26px;
+}
+.xjr_index_ruxue img{
+    cursor: pointer;
+}
+.xjr_class_tishi{
+    position: relative;
+    width: 100%;
+    padding-top: 68px;
+}
+.xjr_class_tishi1{
+    padding-top: 0px;
+}
+.xjr_classTitle{
+    position: absolute;
+    left: -32px;
+    top: 20px;
+}
+.xjr_class_willbegin{
+    padding: 80px 116px 55px 80px;
+    font-size: 16px;
+    color: #333;
+    background: url(../images/xjr/xjr_bg_tixing.png) no-repeat ;
+}
+.xjr_class_lastover{
+    background: url(../images/xjr/xjr_lastover_bg.png) no-repeat 0px 0px;
+    padding: 136px 116px 55px 80px;;
+    
+}
+.xjr_willbegin_head{
+    display: flex;
+}
+.xjr_willbegin_time{
+    /* padding-right: 320px; */
+    width: 496px;
+}
+.xjr_willbegin_time span{
+    padding-left: 8px;
+    color: #d53038;
+}
+.xjr_gotopingia{
+    width: 70px;
+    height: 30px;
+    background: #d53038;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 150px;
+    cursor: pointer;
+}
+.xjr_willbegin_leavetime{
+    color: #D53038;
+}
+.xjr_willbegin_main{
+    padding-top:23px;
+    display: flex; 
+}
+.xjr_teacher_info{
+    display: flex;
+}
+.xjr_index_guanzhu{
+    width: 44px;
+    height: 22px;
+    background: #D53038;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.xjr_index_noguanzhu{
+    width: 68px;
+    height: 20px;
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid #d53038;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 4px;
+}
+.xjr_class_id{
+    width: 344px;
+    padding-top: 16px;
+    padding-left: 26px;
+}
+.xjr_teacher_info{
+    padding-left: 26px;
+    padding-top: 18px;
+    display: flex;
+    align-items: center; 
+}
+.xjr_class_star{
+    padding-left: 26px;
+    padding-top: 18px;
+    display: flex;
+    align-items: center; 
+}
+.xjr_class_star >span{
+    padding-left: 13px;
+    color: #d53038;
+}
+.xjr_teacher_info img{
+    width: 16px;
+    height: 16px;
+}
+.xjr_teacher_info >*{
+    padding-right: 16px;
+}
+.xjr_teacher_info >.xjr_index_guanzhu{
+    padding-right: 0px;
+}
+.xjr_teacher_info >.xjr_index_noguanzhu{
+    padding-right: 0px;
+}
+.xjr_ke_buttonbox{
+    display: flex;
+    padding-top: 33px;
+    padding-bottom: 10px;
+}
+.xjr_ke_button1{
+    width: 118px;
+    height: 54px;
+    text-align: center;
+    color: #fff;
+    line-height: 54px;
+    margin-right: 14px;
+    cursor: pointer;
+    background: url(../images/xjr/xjr_button_yellow.png) no-repeat ;
+}
+.xjr_ke_button2{
+    width: 118px;
+    cursor: pointer;
+    color: #fff;
+    height: 54px;
+    text-align: center;
+    line-height: 54px;
+    background: url(../images/xjr/xjr_button_red.png) no-repeat ;
+}
+.xjr_ke_tixing{
+    padding-left: 20px;
+}
+.xjr_haixunuli{
+    font-size: 12px;
+}
+.xjr_wyyuyue{
+    padding-top: 30px;
+}
+.xjr_lijiyuyue{
+    position: absolute;
+    right: 110px;
+    bottom: 40px;
+    width: 146px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #d53038;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    cursor: pointer;
+}
